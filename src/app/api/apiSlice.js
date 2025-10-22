@@ -2,7 +2,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 import { setCredentials } from '../../features/auth/authSlice';
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: 'https://technotes-api.onrender.com',
+  baseUrl: 'https://backend-technote-75yh.onrender.com',
   credentials: 'include', // Always include cookies with every request
   // prepareHeaders allows you to modify request headers before sending
   // getState() gives access to the entire Redux store state
